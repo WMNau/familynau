@@ -1,0 +1,23 @@
+{
+  "name": "familynau",
+  "version": "1.0.0",
+  "description": "Client/Server for the familynau web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WMNau/familynau.git"
+  },
+  "author": "Mike Nau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WMNau/familynau/issues"
+  },
+  "homepage": "https://github.com/WMNau/familynau#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}

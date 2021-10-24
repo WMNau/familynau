@@ -1,8 +1,15 @@
+import { Provider } from "react-redux";
+import { ConnectedDashboard } from "./Dashboard";
+
+import { store } from "../store";
+
 const App = () => {
   return (
-    <div className="App">
-      <h1>Hello world</h1>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <ConnectedDashboard />
+      </div>
+    </Provider>
   );
 };
 
