@@ -4,7 +4,7 @@ export const TaskList = ({ tasks, name }) => (
   <div>
     <h3>{name}</h3>
     {tasks.map(task => (
-      <div>{task.name}</div>
+      <div key={task.id}>{task.name}</div>
     ))}
   </div>
 );
